@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "ANIK DAS",
+        "Username": "ANIK987",
+        "Password": "123",
+        "Phone_Number": "01723337444",
+        "Email_Address": "anikdas987000@gmail.com",
+        "Address": "DHAKA",
+        "Qualification": "Student"
+    },
+    {
+        "Name": "Shakib Al Hasan",
+        "Username": "Shakib000",
+        "Password": "Shakib000",
+        "Phone_Number": "01723637422",
+        "Email_Address": "Shakib000@gmail.com",
+        "Address": "DHAKA",
+        "Qualification": "Player"
+    }
+]

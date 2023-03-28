@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(143, 194, 248);
+    /* background-image: url('../images/triangles15.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.container{
+    background-image: linear-gradient(to right,  rgb(53, 145, 127),white);
+    height:650px;
+    width:480px;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgb(147, 151, 150) ;
+    overflow: hidden;
+
+}
+
+.title{
+    text-align: center;
+    background-color: rgb(9, 73, 60);
+    font-size: 20px;
+    color:white;
+    padding: 5px;
+    height: 70px;
+}
+h2{
+    text-align:center;
+}
+form{
+    padding-left: 10px;
+}
+table{
+        /* border: 3px solid black; */
+    padding-top:20px;
+    height:350px;
+    margin-left:50px;
+}
+img{
+    height:150px;
+    width:150px;
+    margin-left:160px;
+    margin-top: 10px;
+    border-radius: 50%;
+      
+}
+ input{
+    /* margin-bottom: 20px; */
+    border-radius: 3px;
+    box-shadow: 3px 3px rgb(163, 159, 159);
+    margin-bottom: 5px;
+    border-width:3px;
+
+}
+
+#update_btn{
+    background-color: rgb(9, 73, 60);
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(7, 99, 69);
+    width: 120px;
+    height:35px;
+    margin-top: 15px;
+    margin-left: 60px;
+    
+}
+#name,#uname,#password,#cpassword,#phone,#email,#address,#qualification{
+    width: 220px;
+}
+#logout_btn{
+    background-color: rgb(9, 73, 60);
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(7, 99, 69);
+    margin-left:220px;
+}

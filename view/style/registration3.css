@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(143, 194, 248);
+    /* background-image: url('../images/triangles15.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.container{
+    background-image: linear-gradient(to right,  rgb(53, 145, 127),white);
+    height:650px;
+    width:500px;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgb(147, 151, 150) ;
+    overflow: hidden;
+
+}
+.title{
+    text-align: center;
+    background-color: rgb(9, 73, 60);
+    font-size: 20px;
+    color:white;
+    padding: 5px;
+}
+form{
+    padding-top: 10px;
+    padding-left: 65px;
+}
+label{
+    
+    margin-bottom: 5px;
+}
+ input{
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px rgb(163, 159, 159);
+    width:370px;
+    height:25px;
+
+}
+button{
+    background-color: rgb(9, 73, 60);
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(7, 99, 69);
+    width: 120px;
+    height:35px;
+    margin-top: 15px;
+    margin-left: 125px;
+    
+}
+.footer{
+
+    padding-bottom: 0px;
+    text-align: center;
+    height: 100px;
+   
+}
+.footer p{
+    color: rgb(14, 80, 58);
+}
+textarea{
+    border-radius: 3px;
+    box-shadow: 3px 3px rgb(163, 159, 159);
+}

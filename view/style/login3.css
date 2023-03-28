@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(143, 194, 248);
+    /* background-image: url('../images/triangles15.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.container{
+    background-image: linear-gradient(to right,  rgb(53, 145, 127),white);
+    height:480px;
+    width:440px;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgb(147, 151, 150) ;
+    overflow: hidden;
+
+}
+.title{
+    text-align: center;
+    background-color: rgb(9, 73, 60);
+    font-size: 20px;
+    color:white;
+    padding: 8px;
+}
+form{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.email label{
+    display: block;
+    margin-bottom: 10px;
+}
+.password label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+ .email input{
+    display: block;
+    /* margin-bottom: 20px; */
+    border-radius: 3px;
+    box-shadow: 3px 3px rgb(163, 159, 159);
+    width:330px;
+    height:30px;
+    border-width:3px;
+
+}
+.password input{
+    display: block;
+    /* margin-bottom: 20px; */
+    border-radius: 3px;
+    box-shadow: 3px 3px rgb(163, 159, 159);
+    width:330px;
+    height:30px;
+    border-width:3px;
+}
+.remember input{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.email i{
+    position: absolute;
+    top:230px;
+    right:420px;
+    visibility: hidden;
+}
+.password i{
+    position: absolute;
+    top:315px;
+    right: 420px;
+    visibility: hidden;
+}
+small{
+    color:red;
+    visibility: hidden;
+    /* margin-bottom: 5px; */
+}
+
+button{
+    background-color: rgb(9, 73, 60);
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(7, 99, 69);
+    width: 120px;
+    height:35px;
+    margin-top: 25px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    
+    
+}
+.footer{
+    
+    padding-bottom: 0px;
+    text-align: center;
+    height: 100px;
+   
+}
+.footer p{
+    padding-top: 15px;
+    color: rgb(14, 80, 58);
+}

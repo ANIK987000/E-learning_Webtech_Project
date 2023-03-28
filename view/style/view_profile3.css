@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(143, 194, 248);
+    /* background-image: url('../images/triangles15.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.container{
+    background-image: linear-gradient(to right,  rgb(53, 145, 127),white);
+    height:550px;
+    width:460px;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgb(147, 151, 150) ;
+    overflow: hidden;
+
+}
+
+.title{
+    text-align: center;
+    background-color: rgb(9, 73, 60);
+    font-size: 20px;
+    color:white;
+    padding: 5px;
+    height: 70px;
+}
+
+form{
+    padding-left: 35px;
+}
+h2{
+text-align:center;
+}
+table{
+        /* border: 3px solid black; */
+    padding-top:20px;
+    height:300px;
+    margin-left:80px;
+}
+img{
+    height:150px;
+    width:150px;
+    margin-left:160px;
+    margin-top: 10px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+  
+}
+
+#logout_btn{
+    background-color: rgb(9, 73, 60);
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(7, 99, 69);
+    margin-top: 30px;
+    margin-left:170px;
+}

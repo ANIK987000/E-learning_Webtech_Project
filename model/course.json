@@ -1,0 +1,34 @@
+[
+    {
+        "Course_Name":"Artificial Inteligence And Expert System",
+	"Course_Id":"101",
+	"Instructor_Name":"ANIK DAS",
+        "Duration":"3 Weeks",
+        "Price":"29.99$"
+
+    },
+    {
+        "Course_Name":"Business Communication",
+	"Course_Id":"102",
+	"Instructor_Name":"ANIK DAS",
+        "Duration":"4 Weeks",
+        "Price":"20.99$"
+
+    },
+    {
+        "Course_Name":"Web Technologies",
+	"Course_Id":"103",
+	"Instructor_Name":"ANIK DAS",
+        "Duration":"5 Weeks",
+        "Price":"35.99$"
+
+    },
+    {
+        "Course_Name":"Advance Database Management System",
+	"Course_Id":"104",
+	"Instructor_Name":"ANIK DAS",
+        "Duration":"8 Weeks",
+        "Price":"50.99$"
+
+    }
+]
